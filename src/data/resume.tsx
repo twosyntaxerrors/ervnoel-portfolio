@@ -96,7 +96,7 @@ export const DATA = {
       start: "February 2017",
       end: "March 2020",
       description:
-        "Led and educated new employees on proper procedures, production process and machine maintenance while maintaining a strong and positive working environment.",
+        "Led and educated new employees in the factory on proper procedures, production process and machine maintenance while maintaining a strong and positive working environment.",
     },
 
     {
@@ -179,7 +179,7 @@ export const DATA = {
     },
     {
       title: "Loopgen.ai",
-      href: "https://magicui.design",
+      href: "https://www.github.com/twosyntaxerrors/",
       dates: "August 2024 - Present",
       active: true,
       description:
