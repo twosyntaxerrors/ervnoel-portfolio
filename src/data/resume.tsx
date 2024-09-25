@@ -135,7 +135,7 @@ export const DATA = {
       start: "January 2013",
       end: "August 2013",
       description:
-        "Revamped the website for Penn United Soccer and led a team to create a website an online presence for Centre Volunteers in Medicine. Conducted market research and graphic design for public service announcements, as well as cold outreach to potential nonprofits.",
+        "Revamped the website for Penn United Soccer and led a team to create a website and an online presence for Centre Volunteers in Medicine. Conducted market research and graphic design for public service announcements, as well as cold outreach to potential nonprofits.",
     },
   
     // Education 
