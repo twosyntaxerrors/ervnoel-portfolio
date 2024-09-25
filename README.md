@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="Erv Noel's Portfolio" src="ervnoel-web-portfolio.jpg" width="90%">
+<img alt="Erv Noel's Portfolio" src="/ervnoel-web-portfolio.jpg" width="90%">
 </div>
 
 # Erv Noel's Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
