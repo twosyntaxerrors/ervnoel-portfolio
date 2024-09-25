@@ -227,7 +227,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/Stable_Diffusion_Training_Guide.mp4",
+        "/Stable_Diffusion_Training_Guide_1.mp4",
     },
 
     {
@@ -255,7 +255,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/Doja_Cat_Face_2.mp4",
+        "/Doja_Cat_Face_3.mp4",
     },
 
     {
@@ -306,7 +306,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/Stock_photo_platform.mp4",
+        "/Stock_photo_platform_2.mp4",
     },
 
 
