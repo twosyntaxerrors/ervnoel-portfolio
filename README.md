@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Erv Noel's Portfolio" src="https://raw.githubusercontent.com/twosyntaxerrors/ervnoel-portfolio/main/public/ervnoel-web-portfolio.jpg" width="90%">
+  <img alt="Erv Noel's Portfolio" src="https://raw.githubusercontent.com/twosyntaxerrors/ervnoel-portfolio/main/public/ervnoel-web-portfolio-1.png" width="90%">
 </div>
 
 
