@@ -179,7 +179,7 @@ export const DATA = {
     },
     {
       title: "Loopgen.ai",
-      href: "https://www.github.com/twosyntaxerrors/",
+      href: "https://github.com/twosyntaxerrors/loopgen-nextjs",
       dates: "August 2024 - Present",
       active: true,
       description:
@@ -197,7 +197,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/twosyntaxerrors/loopgen-nextjs",
           icon: <Icons.github className="size-3" />,
         },
       ],
