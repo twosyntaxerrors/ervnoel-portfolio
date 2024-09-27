@@ -285,7 +285,7 @@ export const DATA = {
 
     {
       title: "Aura Stock Photo & Video Website",
-      href: "https://github.com/twosyntaxerrors/face-to-many-nextjs-interface",
+      href: "https://github.com/twosyntaxerrors/",
       dates: "February 2024", 
       active: true,
       description:
@@ -300,7 +300,7 @@ export const DATA = {
       links: [
         {
           type: "Source Code",
-          href: "https://github.com/twosyntaxerrors/youtune-streamlit",
+          href: "https://github.com/twosyntaxerrors/",
           icon: <Icons.github className="size-3" />,
         },
       ],
