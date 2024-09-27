@@ -196,7 +196,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
+          type: "Source Code",
           href: "https://github.com/twosyntaxerrors/loopgen-nextjs",
           icon: <Icons.github className="size-3" />,
         },
