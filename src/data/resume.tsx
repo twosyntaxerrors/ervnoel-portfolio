@@ -13,7 +13,7 @@ export const DATA = {
 
   summary:
     "In the past, [I pursued a degree in Information Sciences and Technology with an option in design and development](/#education), [interned at some tech companies in State College to help local nonprofits](https://www.cvim.net/), and dedicated my time to learning how to communicate my ideas through sales and [building projects](/#projects). My entrepreneurial spirit, creativity and adaptability make me well-suited for fast-paced roles that demand both initiative and teamwork.",
-  avatarUrl: "/Erv_FLUX.png",
+  avatarUrl: "/EGN-professional-headshot_inpaint3.png",
   skills: [
     "Pipeline Management",
     "Salesforce",
@@ -23,6 +23,7 @@ export const DATA = {
     "AI Engineering",
     "Figma",
     "Photoshop",
+    "B2B Sales",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -296,6 +297,7 @@ export const DATA = {
         "Shadcn",
         "Typescript",
         "Supabase",
+        "v0",
       ],
       links: [
         {
