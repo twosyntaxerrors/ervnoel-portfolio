@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/brooklyn",
   description:
 
-  "Creative Problem Solver & AI/Tech Enthusiast. I like building cool projects and helping others bring their ideas to life.",
+  "Creative Problem Solver & AI/Tech Enthusiast, looking for my next role. I like building cool projects and helping others bring their ideas to life.",
 
   summary:
     "In the past, [I pursued a degree in Information Sciences and Technology with an option in design and development](/#education), [interned at some tech companies in State College to help local nonprofits](https://www.cvim.net/), and dedicated my time to learning how to communicate my ideas through sales and [building projects](/#projects). My entrepreneurial spirit, creativity and adaptability make me well-suited for fast-paced roles that demand both initiative and teamwork.",
@@ -27,7 +27,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/erv_resume.pdf", icon: NotebookIcon, label: "Resume" },
+    { href: "/SDR-Erv-Noel-Updated.pdf", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
     email: "ervnoelprodcution@gmail.com",
@@ -47,6 +47,7 @@ export const DATA = {
 
         navbar: true,
       },
+      /*
       X: {
         name: "X",
         url: "https://x.com/LeoGivenchy_",
@@ -54,6 +55,8 @@ export const DATA = {
 
         navbar: true,
       },
+
+      */
       Youtube: {
         name: "Youtube",
         url: "https://www.youtube.com/@ErvNoelProduction",
@@ -71,6 +74,35 @@ export const DATA = {
   },
 
   work: [
+
+
+    {
+      company: "Omnizant",
+      href: "https://omnizant.com/",
+      badges: [],
+      location: "Remote",
+      title: "Business Development Representative",
+      logoUrl: "/omnizant-square-logo.png",
+      start: "January 2025",
+      end: "October 2025",
+      description:
+        "Averaged 80 to 120 cold calls daily to generate outbound pipeline and qualify opportunities. Booked 3 to 5 consultations weekly while independently closing new law firms and lawyers. Maintained organized CRM pipeline of 100 to 200 prospects with consistent follow up and accurate tracking",
+    },
+
+
+
+    {
+      company: "PRACTICE Benefit Corp",
+      href: "https://www.practicebc.com/",
+      badges: [],
+      location: "Remote",
+      title: "Sales Development Representative",
+      logoUrl: "/practicebc.jpg",
+      start: "March 2024",
+      end: "November 2024",
+      description:
+        "Built and managed relationships with 50+ K-12 decision-makers (including superintendents and principals) driving a 20% increase in lead-to-opportunity conversions. Partnered with internal teams to implement programs, achieving a 97% client satisfaction rate post-implementation.",
+    },
 
 
 
@@ -156,6 +188,41 @@ export const DATA = {
 
   // Projects
   projects: [
+
+    {
+      title: "Soundscope",
+      href: "https://music-feedback-tool.vercel.app/",
+      dates: "July 2025",
+      active: true,
+      description:
+        "Designed/developed Soundscope, a lightweight web application that provides feedback and analysis for your music. Upload your audio files and get detailed insights, performance metrics, and suggestions for improvement.",
+      technologies: [
+        "Next.js",
+        "Gemini API",
+        "Convex",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://music-feedback-tool.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+        {
+          type: "Source Code",
+          href: "https://github.com/twosyntaxerrors/music-feedback-tool",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/Soundscope-Video.mp4",
+    },
+
+
+
+
     {
       title: "Erv Noel Beat Store",
       href: "https://www.ervnoel.com",
@@ -181,7 +248,7 @@ export const DATA = {
     {
       title: "Loopgen.ai",
       href: "https://github.com/twosyntaxerrors/loopgen-nextjs",
-      dates: "August 2024 - Present",
+      dates: "August 2024",
       active: true,
       description:
         "Designed, developed Loopgen, a simple web app for producers/sound designers to generate one-shots, drum loops or sfx, with the power of neural networks.",
@@ -283,7 +350,7 @@ export const DATA = {
         "/Youtune_Perfect_Blue.mp4",
     },
 
-
+    /*
     {
       title: "Aura Stock Photo & Video Website",
       href: "https://github.com/twosyntaxerrors/",
@@ -311,7 +378,7 @@ export const DATA = {
         "/Stock_photo_platform_2.mp4",
     },
 
-
+    */
 
 
     
