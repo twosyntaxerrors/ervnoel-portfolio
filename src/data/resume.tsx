@@ -193,9 +193,42 @@ export const DATA = {
   projects: [
 
     {
+      title: "Pokemon Creator Studio",
+      href: "https://github.com/twosyntaxerrors/fakemon-dex-creator",
+      dates: "November 2025",
+      active: true,
+      description:
+        "I built this supplemental/internal tool to quickly generate animated creature designs, enabling scalable content creation. Includes 3D model rendering, 8-bit pixel view and interface customization options.",
+      technologies: [
+        "Vite",
+        "Nano Banana",
+        "Supabase",
+        "Clerk",
+      ],
+      links: [
+        
+        {
+          type: "Case Study",
+          href: "https://github.com/twosyntaxerrors/fakemon-dex-creator/blob/main/CASE_STUDY.md",
+          icon: <Icons.globe className="size-3" />,
+        },
+        
+        {
+          type: "Source Code",
+          href: "https://github.com/twosyntaxerrors/fakemon-dex-creator",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/fakemon-creator-studio.png",
+      video:
+        "",
+    },
+
+
+    {
       title: "Soundscope",
       href: "https://music-feedback-tool.vercel.app/",
-      dates: "July 2025",
+      dates: "September 2025",
       active: true,
       description:
         "Designed/developed Soundscope, a lightweight web application that provides feedback and analysis for your music. Upload your audio files and get detailed insights, performance metrics, and suggestions for improvement.",
