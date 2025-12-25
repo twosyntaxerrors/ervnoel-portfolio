@@ -86,7 +86,7 @@ export const DATA = {
       location: "Remote",
       title: "Business Development Representative",
       logoUrl: "/omnizant-square-logo.png",
-      start: "January 2025",
+      start: "December 2024",
       end: "October 2025",
       description:
         "Averaged 80 to 120 cold calls daily to generate outbound pipeline and qualify opportunities. Booked 3 to 5 consultations weekly while independently closing new law firms and lawyers. Maintained organized CRM pipeline of 100 to 200 prospects with consistent follow up and accurate tracking",
