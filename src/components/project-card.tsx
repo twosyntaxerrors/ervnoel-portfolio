@@ -6,10 +6,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { MediaLightbox } from "@/components/media-lightbox";
 
 interface Props {
   title: string;
@@ -25,12 +25,10 @@ interface Props {
     type: string;
     href: string;
   }[];
-  className?: string;
 }
 
 export function ProjectCard({
   title,
-  href,
   description,
   dates,
   tags,
@@ -38,38 +36,45 @@ export function ProjectCard({
   image,
   video,
   links,
-  className,
 }: Props) {
+  const hasMedia = !!(video || image);
+
+  const mediaContent = (
+    <>
+      {video && (
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="metadata"
+          className="pointer-events-none mx-auto h-56 w-full object-contain bg-black"
+        />
+      )}
+      {image && (
+        <Image
+          src={image}
+          alt={title}
+          width={500}
+          height={300}
+          className="h-40 w-full overflow-hidden object-cover object-top"
+        />
+      )}
+    </>
+  );
+
   return (
     <Card
       className={
         "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
-      <Link
-        href={href || "#"}
-        className={cn("block cursor-pointer", className)}
-      >
-        {video && (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="pointer-events-none mx-auto h-56 w-full object-contain bg-black" // needed because random black line at bottom of video
-          />
-        )}
-        {image && (
-          <Image
-            src={image}
-            alt={title}
-            width={500}
-            height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
-        )}
-      </Link>
+      {hasMedia ? (
+        <MediaLightbox video={video} image={image} title={title}>
+          {mediaContent}
+        </MediaLightbox>
+      ) : null}
       <CardHeader className="px-2">
         <div className="space-y-1">
           <CardTitle className="mt-1 text-base">{title}</CardTitle>
