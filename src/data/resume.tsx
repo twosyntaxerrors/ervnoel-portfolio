@@ -193,12 +193,70 @@ export const DATA = {
   projects: [
 
     {
-      title: "Pokemon Creator Studio",
+      title: "Nanobeasts – Landing Page",
+      href: "",
+      dates: "February 2026",
+      active: true,
+      description:
+        "Designed and built the landing page for Nanobeasts, showcasing the app's core features, creature evolution system, and gamified fitness experience to drive user interest and sign-ups.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+      ],
+      links: [],
+      image: "",
+      video:
+        "/nanobeasts-landing-page-showcase.mp4",
+    },
+
+    {
+      title: "Nanobeasts – Gamified Fitness App",
+      href: "",
+      dates: "January 2026",
+      active: true,
+      description:
+        "Nanobeasts is a gamified fitness app for walking where you raise, grow, and evolve virtual creatures by consistently hitting your daily step goals, inspired by Tamagotchi and Pokémon.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+      ],
+      links: [],
+      image: "",
+      video:
+        "/nanobeasts-video-showcase.MOV",
+    },
+
+    {
+      title: "AI Creator Studio",
+      href: "",
+      dates: "December 2025",
+      active: true,
+      description:
+        "Built a multi-modal AI creator studio with Next.js that unifies image generation, video creation, pose-guided editing, inpainting, style transfer, and voice cloning into a single interface — integrating 10+ models across Replicate, FAL, Wavespeed, and Gemini behind a configuration-driven abstraction layer.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Replicate API",
+        "FAL AI",
+        "Gemini API",
+        "Framer Motion",
+        "Radix UI",
+      ],
+      links: [],
+      image: "/image-gen-obsidian-arcade.png",
+      video: "",
+    },
+
+    {
+      title: "Nanobeasts Creator Studio",
       href: "https://github.com/twosyntaxerrors/fakemon-dex-creator",
       dates: "November 2025",
       active: true,
       description:
-        "I built this supplemental/internal tool to quickly generate animated creature designs, enabling scalable content creation. Includes 3D model rendering, 8-bit pixel view and interface customization options.",
+        "I built this supplemental/internal tool to quickly generate animated creature designs, enabling scalable content creation. Includes 3D model rendering, 8-bit pixel view and interface customization options, and it was used to create the Nanobeasts app creature designs.",
       technologies: [
         "Vite",
         "Nano Banana",
@@ -206,13 +264,13 @@ export const DATA = {
         "Clerk",
       ],
       links: [
-        
+
         {
           type: "Case Study",
           href: "https://github.com/twosyntaxerrors/fakemon-dex-creator/blob/main/CASE_STUDY.md",
           icon: <Icons.globe className="size-3" />,
         },
-        
+
         {
           type: "Source Code",
           href: "https://github.com/twosyntaxerrors/fakemon-dex-creator",
@@ -223,7 +281,6 @@ export const DATA = {
       video:
         "",
     },
-
 
     {
       title: "Soundscope",
@@ -256,31 +313,30 @@ export const DATA = {
         "/Soundscope-Video.mp4",
     },
 
-
-
-
     {
-      title: "Erv Noel Beat Store",
-      href: "https://www.ervnoel.com",
-      dates: "Jan 2018 - Present",
+      title: "Youtube Frame Extractor",
+      href: "https://github.com/twosyntaxerrors/face-to-many-nextjs-interface",
+      dates: "September 2024",
       active: true,
       description:
-        "I got into music production after struggling to find beats I liked. I spent time learning the craft and eventually created a website to sell beats, graphic design and mixing services to aspiring artists and content creators.",
+        "Developed a Youtube frame extractor built with Streamlit and Python, to streamline the process of creating datasets to train FLUX LoRAs on the images extracted from Youtube videos. Works well for training LoRA on a specific style.",
       technologies: [
-        "No Code Builder",
-        "Beatstars",
+        "Streamlit",
+        "Python",
+        "NumPy",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://www.ervnoel.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source Code",
+          href: "https://github.com/twosyntaxerrors/youtune-streamlit",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "/1bbd1e39-5858-4d28-a4ef-27954ba08c52_zoom.mp4",
+        "/Youtune_Perfect_Blue.mp4",
     },
+
     {
       title: "Loopgen.ai",
       href: "https://github.com/twosyntaxerrors/loopgen-nextjs",
@@ -310,34 +366,9 @@ export const DATA = {
     },
 
     {
-      title: "Stable Diffusion LoRA Training Guide",
-      href: "https://docs.google.com/document/d/1FrlKikJJtx9e0tOaYx3h_k9P6d31PQZp",
-      dates: "February 2024", 
-      active: true,
-      description:
-        "Wrote an in-depth guide on how to train a low rank adaptation model on a likeness using Runpod's GPU cloud infrastructure, Google Colab, and Fooocus (a front end for running Stable Diffusion inference)",
-      technologies: [
-        "Stable Diffusion",
-        "Google Colab",
-        "RunPod",
-        "Fooocus",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://docs.google.com/document/d/1FrlKikJJtx9e0tOaYx3h_k9P6d31PQZp",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "/Stable_Diffusion_Training_Guide_1.mp4",
-    },
-
-    {
       title: "Face To Many AI",
       href: "https://github.com/twosyntaxerrors/face-to-many-nextjs-interface",
-      dates: "April 2024", 
+      dates: "April 2024",
       active: true,
       description:
         "Developed a frontend UI for @fofr's Replicate API (face-to-many) that takes a user image as input and uses machine learning to transform the image based on the user's selected style and prompt.",
@@ -363,27 +394,51 @@ export const DATA = {
     },
 
     {
-      title: "Youtube Frame Extractor",
-      href: "https://github.com/twosyntaxerrors/face-to-many-nextjs-interface",
-      dates: "September 2024", 
+      title: "Stable Diffusion LoRA Training Guide",
+      href: "https://docs.google.com/document/d/1FrlKikJJtx9e0tOaYx3h_k9P6d31PQZp",
+      dates: "February 2024",
       active: true,
       description:
-        "Developed a Youtube frame extractor built with Streamlit and Python, to streamline the process of creating datasets to train FLUX LoRAs on the images extracted from Youtube videos. Works well for training LoRA on a specific style.",
+        "Wrote an in-depth guide on how to train a low rank adaptation model on a likeness using Runpod's GPU cloud infrastructure, Google Colab, and Fooocus (a front end for running Stable Diffusion inference)",
       technologies: [
-        "Streamlit",
-        "Python",
-        "NumPy",
+        "Stable Diffusion",
+        "Google Colab",
+        "RunPod",
+        "Fooocus",
       ],
       links: [
         {
-          type: "Source Code",
-          href: "https://github.com/twosyntaxerrors/youtune-streamlit",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://docs.google.com/document/d/1FrlKikJJtx9e0tOaYx3h_k9P6d31PQZp",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "/Youtune_Perfect_Blue.mp4",
+        "/Stable_Diffusion_Training_Guide_1.mp4",
+    },
+
+    {
+      title: "Erv Noel Beat Store",
+      href: "https://www.ervnoel.com",
+      dates: "Jan 2018 - Present",
+      active: true,
+      description:
+        "I got into music production after struggling to find beats I liked. I spent time learning the craft and eventually created a website to sell beats, graphic design and mixing services to aspiring artists and content creators.",
+      technologies: [
+        "No Code Builder",
+        "Beatstars",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.ervnoel.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/1bbd1e39-5858-4d28-a4ef-27954ba08c52_zoom.mp4",
     },
 
     /*
