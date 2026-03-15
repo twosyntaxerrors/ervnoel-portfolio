@@ -1,0 +1,35 @@
+# Erv Noel – Portfolio
+
+> Creative problem solver and AI/tech enthusiast based in Brooklyn, NY. Background in sales and business development combined with web development and AI/ML project experience.
+
+## About
+
+Erv Noel is a multidisciplinary professional with a Bachelor's in Information Sciences and Technology from Penn State. He builds innovative products at the intersection of AI, design, and web development, and has sales experience at companies like Angi, PRACTICE Benefit Corp, and Omnizant.
+
+## Projects
+
+- Nanobeasts Landing Page: Landing page showcasing a gamified fitness app with creature evolution
+- Nanobeasts – Gamified Fitness App: Mobile app where users raise virtual creatures by hitting daily step goals (React Native, Expo)
+- AI Creator Studio: Multi-modal AI tool integrating image generation, video creation, inpainting, style transfer, and voice cloning
+- [Nanobeasts Creator Studio](https://github.com/twosyntaxerrors/fakemon-dex-creator): Internal tool for generating animated creature designs with 3D rendering
+- [Soundscope](https://music-feedback-tool.vercel.app/): Web app providing feedback and analysis for uploaded audio files
+- [Youtube Frame Extractor](https://github.com/twosyntaxerrors/youtune-streamlit): Python/Streamlit tool to extract frames from YouTube videos for training FLUX LoRAs
+- [Loopgen.ai](https://github.com/twosyntaxerrors/loopgen-nextjs): Web app for music producers to generate drum loops and SFX using neural networks
+- [Face To Many AI](https://github.com/twosyntaxerrors/face-to-many-nextjs-interface): Frontend UI using ML to transform user images based on selected styles
+- [Stable Diffusion LoRA Training Guide](https://docs.google.com/document/d/1FrlKikJJtx9e0tOaYx3h_k9P6d31PQZp): Documentation on training low-rank adaptation models
+- [Erv Noel Beat Store](https://www.ervnoel.com): Music production website selling beats, graphic design, and mixing services
+
+## Tech Stack
+
+React, Next.js, React Native, TypeScript, Tailwind CSS, Framer Motion, Supabase, Firebase, Replicate API, FAL AI, Stable Diffusion, Python, Streamlit
+
+## Skills
+
+TypeScript, React, React Native, Next.js, Photoshop, Stable Diffusion, Pipeline Management, Salesforce, B2B Sales, CRM
+
+## Contact
+
+- Location: Brooklyn, NY
+- GitHub: https://github.com/twosyntaxerrors
+- LinkedIn: https://www.linkedin.com/in/ervenst-noel-46709578/
+- Portfolio: https://ervnoel-portfolio.vercel.app/
