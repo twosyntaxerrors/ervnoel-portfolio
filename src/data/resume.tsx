@@ -27,6 +27,8 @@ export const DATA = {
     "Next.js",
     "Photoshop",
     "B2B Sales",
+    "Cursor",
+    "Claude Code",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
