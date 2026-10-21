@@ -8,7 +8,7 @@ Erv Noel is a multidisciplinary professional with a Bachelor's in Information Sc
 
 ## Projects
 
-- Nanobeasts Landing Page: Landing page showcasing a gamified fitness app with creature evolution
+- [Nanobeasts Landing Page](https://nanobeasts.app): Landing page showcasing a gamified fitness app with creature evolution
 - Nanobeasts – Gamified Fitness App: Mobile app where users raise virtual creatures by hitting daily step goals (React Native, Expo)
 - AI Creator Studio: Multi-modal AI tool integrating image generation, video creation, inpainting, style transfer, and voice cloning
 - [Nanobeasts Creator Studio](https://github.com/twosyntaxerrors/fakemon-dex-creator): Internal tool for generating animated creature designs with 3D rendering

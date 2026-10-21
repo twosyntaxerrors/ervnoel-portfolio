@@ -35,7 +35,7 @@ export const DATA = {
     { href: "/SDR-Erv-Noel-Updated.pdf", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
-    email: "ervnoelprodcution@gmail.com",
+    email: "ervnoelproduction@gmail.com",
     tel: "+5166100406",
     social: {
       GitHub: {
@@ -88,7 +88,7 @@ export const DATA = {
       location: "Remote",
       title: "Business Development Representative",
       logoUrl: "/omnizant-square-logo.png",
-      start: "January 2025",
+      start: "December 2024",
       end: "October 2025",
       description:
         "Averaged 80 to 120 cold calls daily to generate outbound pipeline and qualify opportunities. Booked 3 to 5 consultations weekly while independently closing new law firms and lawyers. Maintained organized CRM pipeline of 100 to 200 prospects with consistent follow up and accurate tracking",
@@ -196,20 +196,25 @@ export const DATA = {
 
     {
       title: "Nanobeasts – Landing Page",
-      href: "",
+      href: "https://nanobeasts.app",
       dates: "February 2026",
       active: true,
       description:
         "Designed and built the landing page for Nanobeasts, showcasing the app's core features, creature evolution system, and gamified fitness experience to drive user interest and sign-ups.",
       technologies: [
-        "React Native",
-        "Expo",
-        "TypeScript",
+        "HTML",
+        "CSS",
+        "JavaScript",
       ],
-      links: [],
-      image: "",
-      video:
-        "/nanobeasts-landing-page-showcase.mp4",
+      links: [
+        {
+          type: "Website",
+          href: "https://nanobeasts.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/nanobeasts-landing-hero.jpg",
+      video: "",
     },
 
     {
@@ -227,7 +232,7 @@ export const DATA = {
       links: [],
       image: "",
       video:
-        "/nanobeasts-video-showcase.MOV",
+        "/nanobeasts-product-demo.mp4",
     },
 
     {
