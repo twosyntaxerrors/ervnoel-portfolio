@@ -197,7 +197,7 @@ export const DATA = {
     {
       title: "Nanobeasts – Landing Page",
       href: "https://nanobeasts.app",
-      dates: "February 2026",
+      dates: "October 2026",
       active: true,
       description:
         "Designed and built the landing page for Nanobeasts, showcasing the app's core features, creature evolution system, and gamified fitness experience to drive user interest and sign-ups.",
@@ -220,7 +220,7 @@ export const DATA = {
     {
       title: "Nanobeasts – Gamified Fitness App",
       href: "",
-      dates: "January 2026",
+      dates: "October 2026",
       active: true,
       description:
         "Nanobeasts is a gamified fitness app for walking where you raise, grow, and evolve virtual creatures by consistently hitting your daily step goals, inspired by Tamagotchi and Pokémon.",
